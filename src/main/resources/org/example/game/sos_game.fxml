@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" spacing="10" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.game.SOSGameController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Label fx:id="statusLabel" text="Player S's turn"/>
+
+    <GridPane fx:id="gameBoard" alignment="CENTER" hgap="5" vgap="5">
+        <!-- The buttons will be added programmatically in the controller -->
+    </GridPane>
+</VBox>
